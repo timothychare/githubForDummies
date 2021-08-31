@@ -21,6 +21,8 @@ The Visual Git Cheat Sheet at <http://ndpsoftware.com/git-cheatsheet.html>
 The Git Docs page at <https://git-scm.com/doc>
 <https://learngitbranching.js.org/>
 
+### Branching
+
 Branching is an effective way to prevent conflicts between miltiple developers and features.
 
 Another common way to use branching is to have each feature that you develop be on a different branch, regardless of the collaborator who is building the feature.
@@ -29,4 +31,19 @@ You can extend the idea of branching by feature to also have one branch that is 
 
 This type of branching allows you to build a lot of different features, merge them each into the development branch, make sure they all work the way you want, and then merge the development branch into the production
 
-## 2. 
+## Github0CLI
+
+GitHub-cli can be used to authinticate with Github using HTTPS or SSH. Instaling the CLI tool will allow you to easily configure these options. <https://help.github.com/articles/caching-your-github-password-in-git.>
+
+### Developer settings
+The last section on the Settings page is Developer settings, which you use only if you’re building an application that accesses the GitHub API, which means the application needs to access GitHub data in some way.
+
+Three settings appear in this section:
+
+OAuth apps: Applications you have registered to use the GitHub API.
+GitHub apps: Applications that integrate with and extend GitHub.
+Personal access tokens: Similar to SSH keys, tokens that allow you to access the GitHub API without requiring authentication.
+
+## 2. Setting up your collaborative coding evnironemnt
+
+
